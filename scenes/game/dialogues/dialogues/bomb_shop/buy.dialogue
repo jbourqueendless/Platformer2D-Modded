@@ -1,0 +1,19 @@
+~ start
+
+Gran Pirata: Hello little pirate. How can I help you?.
+Pirata Malaplata: I was interested in buying a destroyer cannon.
+Gran Pirata: Sorry, for now I can only offer you bombs. 5 gold coins each.
+Pirata Malaplata: Well...
+- I want one
+	=> pay
+- I want three
+	=> pay
+- I want five
+	=> pay
+- Whatever I can get with all my coins
+	=> END
+
+~ pay
+Gran Pirata: You can afford it, right?.
+Pirata Malaplata: Of course!
+=> END
